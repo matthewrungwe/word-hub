@@ -1,0 +1,100 @@
+@lightred: #ef6b68;
+@darkblue: #1f233e;
+@white: #ffffff;
+@positioning: {
+    position: relative;
+    top: 20%;
+}
+
+*{
+    margin: 0;
+}
+
+body{
+    font-family: Georgia, Roboto, 'Times New Roman', Times, serif;
+}
+
+header {
+    text-align: center;
+    background-color: @lightred;
+    padding: 10px;
+}
+  
+main {
+    background-color: @lightred;
+    height: 900px;
+    text-align: center;
+
+    #heading-section{
+       @positioning();
+
+        .select-math{
+            background-color: @darkblue;
+            color: @white;
+            padding: 8px;
+        }
+
+        .select-hub{
+            color: @white;
+            padding: 1px;
+        }
+
+    }
+
+    #form-section{
+        @positioning();
+
+        margin-top: 20px;
+
+        #search-field{
+            width: 219px;
+            height: 37px;
+            border-radius: 3.2px;
+            border: solid 0.8px @darkblue;
+            background-color: inherit;
+            display: block;
+            margin: auto;
+            margin-top: 10px;            
+            font-size: 14px;
+            letter-spacing: 0.2px;
+            text-align: center;
+            color: @white;
+        }
+
+        .search-button{
+            margin-top: 20px;
+            padding: 15px;
+            background-color: @darkblue;
+            color: @white;
+            border-radius: 8px;
+            font-size: 1em;
+            border: solid 0.8px @darkblue;
+        }
+    }
+
+    #result-field-section{
+        @positioning();
+        
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 15px;
+
+
+        #result-field{
+            min-width: 191px;
+            min-height: 200px;
+            background-color: @darkblue;
+            margin: auto;
+            margin-top: 25px;    
+            font-weight: 400;
+            font-size: 14px;
+            letter-spacing: 0.2px;
+            text-align: center;
+            color: @white;
+            overflow-wrap: break-word;
+            padding: 20px;
+        }
+    }
+
+}
+
