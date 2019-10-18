@@ -16,7 +16,7 @@ main {
 }
 main #heading-section {
   position: relative;
-  top: 20%;
+  top: 10%;
 }
 main #heading-section .select-math {
   background-color: #1f233e;
@@ -29,7 +29,7 @@ main #heading-section .select-hub {
 }
 main #form-section {
   position: relative;
-  top: 20%;
+  top: 10%;
   margin-top: 20px;
 }
 main #form-section #search-field {
@@ -55,9 +55,13 @@ main #form-section .search-button {
   font-size: 1em;
   border: solid 0.8px #1f233e;
 }
+main #form-section .search-button:hover {
+  background-color: #2e335a;
+  font-size: 1.1em;
+}
 main #result-field-section {
   position: relative;
-  top: 20%;
+  top: 10%;
   width: 70%;
   margin: 0 auto;
   margin-top: 15px;
@@ -75,4 +79,10 @@ main #result-field-section #result-field {
   color: #ffffff;
   overflow-wrap: break-word;
   padding: 20px;
+}
+main #result-field-section p {
+  color: white;
+  font-size: 1em;
+  margin: 10px;
+  text-align: left;
 }
