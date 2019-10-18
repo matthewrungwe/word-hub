@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+}
+body {
+  font-family: Georgia, Roboto, 'Times New Roman', Times, serif;
+}
+header {
+  text-align: center;
+  background-color: #ef6b68;
+  padding: 10px;
+}
+main {
+  background-color: #ef6b68;
+  height: 900px;
+  text-align: center;
+}
+main #heading-section {
+  position: relative;
+  top: 20%;
+}
+main #heading-section .select-math {
+  background-color: #1f233e;
+  color: #ffffff;
+  padding: 8px;
+}
+main #heading-section .select-hub {
+  color: #ffffff;
+  padding: 1px;
+}
+main #form-section {
+  position: relative;
+  top: 20%;
+  margin-top: 20px;
+}
+main #form-section #search-field {
+  width: 219px;
+  height: 37px;
+  border-radius: 3.2px;
+  border: solid 0.8px #1f233e;
+  background-color: inherit;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #ffffff;
+}
+main #form-section .search-button {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #1f233e;
+  color: #ffffff;
+  border-radius: 8px;
+  font-size: 1em;
+  border: solid 0.8px #1f233e;
+}
+main #result-field-section {
+  position: relative;
+  top: 20%;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+main #result-field-section #result-field {
+  min-width: 191px;
+  min-height: 200px;
+  background-color: #1f233e;
+  margin: auto;
+  margin-top: 25px;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #ffffff;
+  overflow-wrap: break-word;
+  padding: 20px;
+}
