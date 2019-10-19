@@ -8,9 +8,9 @@ $(document).ready(() => {
                 },
                 {
                     word: "addition",
-                    description: `Addition: A mathematical method of combining two numbers to get a total result.
-                `,
-                    example: `Example1:
+                    description: `A mathematical method or operaration of combining two or more numbers to get a total result.`,
+                    example: `
+                Example1:
 
                 A farm has 2 cattle, 4 goats, 2 horses, 4 sheep and 10 chickens. How many animals are on the farm in total?
 
@@ -26,7 +26,7 @@ $(document).ready(() => {
                 },
                 {
                     word: "subtraction",
-                    description: "A mathematical method of removing a number from another number to get a remaining result",
+                    description: "A mathematical method or operation of removing a number from another number to get a remaining result. Subtraction is finding the difference between two numbers.",
                     synonym: ""
 
                 },
@@ -56,7 +56,7 @@ $(document).ready(() => {
                 },
                 {
                     word: "difference",
-                    description: ""
+                    description: "A word that refers to subtracting two numbers to find the gap between them."
                 },
                 {
                     word: "diagram",
@@ -76,11 +76,31 @@ $(document).ready(() => {
                 },
                 {
                     word: "double",
-                    description: ""
+                    description: "Doubling a number is the same as making it twice as large. To double a number, add the number to itself or multiply it by 2."
                 },
                 {
                     word: "expansion notation",
                     description: ""
+                },
+                {
+                    word: "place value",
+                    description: "The value of digit which is determined by its positon in a number e.g. TTh, T or U."
+                },
+                {
+                    word: "multiplication",
+                    description: "A mathematical method or operation that results in repeated addition of a number for a specified number of time."
+                },
+                {
+                    word: "division",
+                    description: "A mathematical method or operation that results in repeated subtraction of a number by a divisor until the divisor can't subtract anymore and the number is in its simplest form."
+                },
+                {
+                    word: "multiple",
+                    description: "Is a product of a number and a factor"
+                },
+                {
+                    word: "factor",
+                    description: "A number that goes or divides into another specified number a complete number of times without leaving a remainder."
                 }
             ];
         }
