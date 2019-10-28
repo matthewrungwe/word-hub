@@ -86,3 +86,6 @@ main #result-field-section p {
   margin: 10px;
   text-align: left;
 }
+main #result-field-section h3 {
+  text-transform: capitalize;
+}
