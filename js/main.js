@@ -10,45 +10,50 @@ $(document).ready(() => {
                     word: "addition",
                     description: `A mathematical method or operaration of combining two or more numbers to get a total result.`,
                     example: `
-                Example1:
+                    Example1:
 
-                A farm has 2 cattle, 4 goats, 2 horses, 4 sheep and 10 chickens. How many animals are on the farm in total?
+                    A farm has 2 cattle, 4 goats, 2 horses, 4 sheep and 10 chickens. How many animals are on the farm in total?
 
-                cattle - 2
-                goats - 4
-                horses - 2
-                sheep - 4
-                chickens - 10
+                    cattle - 2
+                    goats - 4
+                    horses - 2
+                    sheep - 4
+                    chickens - 10
 
-                -> 2 + 4 + 2 + 4 + 10
-                => ${2 + 4 + 2 + 4 + 10}
-                `
+                    -> 2 + 4 + 2 + 4 + 10
+                    => ${2 + 4 + 2 + 4 + 10}
+                    `,
+                    synonyms: ["add", "sum"]
                 },
                 {
                     word: "subtraction",
                     description: "A mathematical method or operation of removing a number from another number to get a remaining result. Subtraction is finding the difference between two numbers.",
-                    synonym: ""
+                    synonyms: ["subtract", "difference", "take away", "take from", "minus"]
 
                 },
                 {
                     word: "bi",
-                    description: "a prefix or a stand alone word that denotes the value or quantity two."
+                    description: "A prefix or a stand alone word that denotes the value or quantity two."
                 },
                 {
                     word: "common",
-                    description: "this is a word used to describe a set of elements that share a finite number of properties."
+                    description: "This is a word used to describe a set of elements that share a finite number of properties."
                 },
                 {
                     word: "capacity",
-                    description: "a measure of the ability of a object to hold other elements."
+                    description: "A measure of the amount of contents that an object can hold."
+                },
+                {
+                    word: "cubic",
+                    description: "A number or unit that has been raided to the poser or exponent of 3 (three)."
                 },
                 {
                     word: "cube",
-                    description: "a unit to the power of three or that has an exponent of 3"
+                    description: "A closed 3D object made from 6 equal squares"
                 },
                 {
                     word: "complete",
-                    description: "a state in which a process reaches when it has come to an end.\n A promt to the person to complete a specified process"
+                    description: "A stage in a process taht you reach after finishing the operations that needed to be done is finished."
                 },
                 {
                     word: "determine",
@@ -64,15 +69,17 @@ $(document).ready(() => {
                 },
                 {
                     word: "dimensions",
-                    description: ""
+                    description: "A measurement of the side of a shape.",
+                    synonyms: [],
+                    example: "A restangular shape has the dimensions of 1500mm x 1000mm."
                 },
                 {
                     word: "dotted line",
-                    description: ""
+                    description: "This is a broken line that is drawn to represent a line that is not a part of the shape or to represent missing or non-visible lines on a shape."
                 },
                 {
                     word: "dice",
-                    description: ""
+                    description: "A small cube with at least one engraved dot on each face. The dots on each face are one or six numbers that range from 1 to 6 e.g one face can have 1 dot, another, 4 dots and so on, but no face will have more that 6 dots and no number of dots is repeated."
                 },
                 {
                     word: "double",
@@ -96,11 +103,34 @@ $(document).ready(() => {
                 },
                 {
                     word: "multiple",
-                    description: "Is a product of a number and a factor"
+                    description: "This is a number that is produced from the product of a number and a factor."
                 },
                 {
-                    word: "factor",
+                    word: "factor", 
                     description: "A number that goes or divides into another specified number a complete number of times without leaving a remainder."
+                },
+                {
+                    word: "2D",
+                    description: "A shape that has got one flat face, and can be drawn on a chart with 2 axes (x, y).",
+                    synonyms: ["2 dimensional shape"]
+                },
+                {
+                    word: "3D",
+                    description: "A shape that has more than one face, has more that one view, and can be drawn on a chart with 3 axes (x, y, z)",
+                    synonyms: ["3 dimensional shape"]
+                },
+                {
+                    word: "rule",
+                    description: "This is like a machine that receives input, operates on that input and produces output or a method or tool that operates on input to give you output.",
+                    synonyms: ["function", "method", "tool"]
+                },
+                {
+                    word: "input",
+                    description: "The data or content that you put into a rule in order to get output."
+                },
+                {
+                    word: "output",
+                    description: "The information or content that is produced by a rule after entering some input."
                 }
             ];
         }
@@ -165,7 +195,7 @@ $(document).ready(() => {
         const definitionObject = search();
 
         resultField.html(`
-        <p>${definitionObject.dictionStatement}</p>
+        <h3>${definitionObject.dictionStatement}</h3>
         <p>${definitionObject.dictionDescription}</p>
         `);
     }
