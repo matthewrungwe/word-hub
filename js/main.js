@@ -8,32 +8,32 @@ $(document).ready(() => {
                 },
                 {
                     word: "addition",
-                    description: `A mathematical method or operaration of combining two or more numbers to get a total result.`,
+                    description: `A mathematical method or operaration of combining two or more numbers to get a total or resultant.
+                    A plus (+) operator is used with addition operations to represent the combination of the numbers.`,
+                    synonyms: ["add", "add up", "add in", "plus"],
                     example: `
-                    Example1:
-
-                    A farm has 2 cattle, 4 goats, 2 horses, 4 sheep and 10 chickens. How many animals are on the farm in total?
-
-                    cattle - 2
-                    goats - 4
-                    horses - 2
-                    sheep - 4
-                    chickens - 10
-
-                    -> 2 + 4 + 2 + 4 + 10
-                    => ${2 + 4 + 2 + 4 + 10}
-                    `,
-                    synonyms: ["add", "sum"]
+                    Example: 
+                    Add 240 and 160
+                    -> 240 + 160
+                    => ${240 + 160}`                   
                 },
                 {
                     word: "subtraction",
-                    description: "A mathematical method or operation of removing a number from another number to get a remaining result. Subtraction is finding the difference between two numbers.",
-                    synonyms: ["subtract", "difference", "take away", "take from", "minus"]
-
+                    description: `A mathematical method or operation of removing a number from another number to get a remaining result. Subtraction is finding the difference between two numbers.`,
+                    synonyms: ["subtract", "difference", "take away", "take from", "minus"],
+                    example: `
+                    Example: 
+                    Subtract 160 from 240
+                    -> 240 - 160
+                    => ${240 - 160}`
                 },
                 {
                     word: "bi",
-                    description: "A prefix or a stand alone word that denotes the value or quantity two."
+                    description: `A prefix or a stand alone word that denotes the value or quantity two.`,
+                    example: `
+                    Example:
+                    -> bicycle, bicoloured, biennial, bicentennial, bipnnate                    
+                    `
                 },
                 {
                     word: "common",
@@ -49,7 +49,7 @@ $(document).ready(() => {
                 },
                 {
                     word: "cube",
-                    description: "A closed 3D object made from 6 equal squares"
+                    description: "A closed three-dimensional object made from 6 equal square face."
                 },
                 {
                     word: "complete",
@@ -65,7 +65,7 @@ $(document).ready(() => {
                 },
                 {
                     word: "diagram",
-                    description: ""
+                    description: "A symbolic representation of information using visual techniques."
                 },
                 {
                     word: "dimensions",
@@ -87,7 +87,7 @@ $(document).ready(() => {
                 },
                 {
                     word: "expansion notation",
-                    description: ""
+                    description: "A mathematical technique of breaking up a number and rewriting it as a sum each digit in its place value."
                 },
                 {
                     word: "place value",
@@ -99,7 +99,7 @@ $(document).ready(() => {
                 },
                 {
                     word: "division",
-                    description: "A mathematical method or operation that results in repeated subtraction of a number by a divisor until the divisor can't subtract anymore and the number is in its simplest form."
+                    description: "A mathematical method or operation that results in repeated subtraction of a number by a divisor until the divisor can't subtract anymore and the number is in its simplest form. A method to find out how many time a divisor goes into a number"
                 },
                 {
                     word: "multiple",
@@ -112,12 +112,12 @@ $(document).ready(() => {
                 {
                     word: "2D",
                     description: "A shape that has got one flat face, and can be drawn on a chart with 2 axes (x, y).",
-                    synonyms: ["2 dimensional shape"]
+                    synonyms: ["two-dimensional shape"]
                 },
                 {
                     word: "3D",
                     description: "A shape that has more than one face, has more that one view, and can be drawn on a chart with 3 axes (x, y, z)",
-                    synonyms: ["3 dimensional shape"]
+                    synonyms: ["three-dimensional shape"]
                 },
                 {
                     word: "rule",
@@ -131,6 +131,38 @@ $(document).ready(() => {
                 {
                     word: "output",
                     description: "The information or content that is produced by a rule after entering some input."
+                },
+                {
+                    word: "area",
+                    description: ""
+                },
+                {
+                    word: "volume",
+                    description: ""
+                },
+                {
+                    word: "vertices",
+                    description: ""
+                },
+                {
+                    word: "edges",
+                    description: ""
+                },
+                {
+                    word: "faces",
+                    description: ""
+                },
+                {
+                    word: "triangle",
+                    description: ""
+                },
+                {
+                    word: "quadrilateral",
+                    description: ""
+                },
+                {
+                    word: "hcf",
+                    description: "The Highest Common Factor is used when you are trying to fint"
                 }
             ];
         }
