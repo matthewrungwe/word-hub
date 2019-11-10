@@ -11,7 +11,7 @@ header {
 }
 main {
   background-color: #ef6b68;
-  height: 900px;
+  height: 650px;
   text-align: center;
 }
 main #heading-section {
@@ -54,6 +54,7 @@ main #form-section .search-button {
   border-radius: 8px;
   font-size: 1em;
   border: solid 0.8px #1f233e;
+  border: 1px solid #ffffff;
 }
 main #form-section .search-button:hover {
   background-color: #2e335a;
