@@ -134,35 +134,101 @@ $(document).ready(() => {
                 },
                 {
                     word: "area",
-                    description: ""
+                    description: "This is the space that is occupied by a flat shape or the surface of an object. The units of area should be measured in squares."
                 },
                 {
                     word: "volume",
-                    description: ""
+                    description: "This is the space that is occupied by a 3-dimensional object. The units of measurement for volume should be in cubes."
                 },
                 {
                     word: "vertices",
-                    description: ""
+                    description: "A word used to describe the corners of a shape or the points on a shape where edges meet.",
+                    synonyms: ["corners"]
                 },
                 {
                     word: "edges",
-                    description: ""
+                    description: "These are the straight lines that mark the sides of a shape"
                 },
                 {
                     word: "faces",
-                    description: ""
+                    description: "These are the 2D shapes or the flat sides that you find on a three-dimensional shape."
                 },
                 {
                     word: "triangle",
-                    description: ""
+                    description: "A two-dimensional shape that has 3 sides and 3 angles."
                 },
                 {
                     word: "quadrilateral",
-                    description: ""
+                    description: "This is a category of two-dimensional shapes that have 4 sides and 4 angles."
                 },
                 {
                     word: "hcf",
                     description: "The Highest Common Factor is used when you are trying to fint"
+                },
+                {
+                    word: "product",
+                    description: "This is a resultant that you get from a multiplication process. Therefore, to get a product, you need to do some form of multiplication first." 
+                },
+                {
+                    word: "survey",
+                    description: "This is a method of collecting data from people by letting them answer a set of questions or a questionnaire."
+                }, 
+                {
+                    word: "questionnaire",
+                    description: "This is a form that questions on a particular subjects. It is given to a selected group of people who will answer the questions."
+                },
+                {
+                    word: "set",
+                    description: "This is a collection or group of related objects."
+                },
+                {
+                    word: "frequency",
+                    description: "This is a number that is used to describe how many times an particular object occurs in a specified set or collection of objects."
+                },
+                {
+                    word: "collect",
+                    description: "This is a way of putting together a group of items. It can also be a specialised or random grouping.",
+                    synonyms: ["gather"]
+                },    
+                {
+                    word: "frequency",
+                    description: "This is a number that represents how many times a particular object appears in a selected group of items or a data set."
+                },
+                {
+                    word: "mode",
+                    description: "This is an object that appears the most or has the highest frequency in a selected group of items or a data set."
+                },
+                {
+                    word: "median",
+                    description: "This is the object that appears in the middle of an ordered or sorted group of objects or data set."
+                },
+                {
+                    word: "mass",
+                    description: "This is the ammount of matter that is found in an physical object."
+                },
+                {
+                    word: "temperature",
+                    description: "A measurement of the degree of how hot and how cold it is, units are mainly in degrees celcius or Ferenheit."
+                },
+                {
+                    word: "themometer",
+                    description: "This is the tool or instrument that is used to measure temperature."
+                },
+                {
+                    word: "distance",
+                    description: "A measurement to describe the space that exists between point A and B."
+                },
+                {
+                    word: "time",
+                    description: "These are fractions that are used to explain a point between past, present and the future."
+                },
+                {
+                    word: "data",
+                    description: "Tese are raw facts that are unprocess and fetched directly after a request like a survey."
+                },
+                {
+                    word: "information",
+                    description: "This process data"
                 }
             ];
         }
