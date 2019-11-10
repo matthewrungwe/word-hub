@@ -29,27 +29,49 @@ class Glossary {
             {
                 word: "bi",
                 description: `A prefix or a stand alone word that denotes the value or quantity two.`,
+                synonyms: ["two"],
                 example: `
                     Example:
                     -> bicycle, bicoloured, biennial, bicentennial, bipnnate                    
-                    `
+                `
             },
             {
                 word: "common",
-                description: "This is a word used to describe a set of elements that share a finite number of properties."
+                description: "This is a word used to describe a set of elements that share a finite number of properties.",
+                synonyms: ["usual", "also found in", "ordinary", "regular"],
+                example: `
+                    Example:
+                    Find the common factors of 21 and 15.
+
+                    -> factors of 21: 1, 3, 7, 21
+                    -> factors of 15: 1, 3, 5, 15
+                    Note: the common factors here will be numbers that in factors of 21 and 15
+                    => 1 and 3
+                `
             },
             {
                 word: "capacity",
-                description: "A measure of the amount of contents that an object can hold."
+                description: "A measure of the maximum amount of contents that an object can hold or carry.",
+                synonyms: ["room", "size", "measurements"],
+                example: `
+                    Example: 
+                    A 2 litre bottle has 500ml of juice left. What is the capacity of the bottle.                    
+                
+                    => 2 litres
+                `
             },
             {
                 word: "cubic",
-                description: "A number or unit that has been raided to the poser or exponent of 3 (three)."
+                description: "A number or unit that has been raised to the power or exponent of 3 (three).",
+                example: `
+                    Example: 
+                    When working with volume, the units of your answer should be raised to the power of 3 e.g. meters cubed, km cubed and so on.
+                `
             },
             {
                 word: "cube",
                 description: "A closed three-dimensional object made from 6 equal square face."
-            },
+            },      
             {
                 word: "complete",
                 description: "A stage in a process taht you reach after finishing the operations that needed to be done is finished."
@@ -232,12 +254,19 @@ class Glossary {
             {
                 word: "perimeter",
                 description: "This is the distance found right around the shape."
+            },
+            {
+                word: "drifting",
+                description: "A form of transformation that involves both turning and sliding."
             }
         ];
     }
 
-    allWords() {
+   allWords() {
         return this.words;
     }
 
+  glossaryLength() {
+        return this.words.length;
+    }
 }
