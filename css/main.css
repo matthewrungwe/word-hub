@@ -6,12 +6,12 @@ body {
 }
 header {
   text-align: center;
-  background-color: #ef6b68;
+  background-color: skyblue;
   padding: 10px;
 }
 main {
-  background-color: #ef6b68;
-  height: 650px;
+  background-color: skyblue;
+  height: 800px;
   text-align: center;
 }
 main #heading-section {
