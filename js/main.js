@@ -34,16 +34,21 @@ $(document).ready(() => {
 
         for(let element of dictionaryArray){ //searches through stored elements in array
             if(element.word === statement){
+
                 return {
                     dictionStatement: statement,
-                    dictionDescription: element.description
+                    dictionDescription: element.description,
+                    dictionSynonyms: element.synonyms,
+                    dictionExample: element.example
                 }
             } 
         }
 
         return {
             dictionStatement: "word entered not found, please check your spelling",
-            dictionDescription: "No descrition found"
+            dictionDescription: "No descrition found",
+            dictionSynonyms: "",
+            dictionExample: ""
         }
 
     }
@@ -57,6 +62,8 @@ $(document).ready(() => {
         resultField.html(`
         <h3>${definitionObject.dictionStatement}</h3>
         <p>${definitionObject.dictionDescription}</p>
+        <p>Similar Words: ${definitionObject.dictionSynonyms}</p>
+        <div>${definitionObject.dictionExample}</div>
         `);
     }
         
