@@ -571,7 +571,7 @@ class Glossary {
                 `
             },
             {
-                word: "themometer",
+                word: "thermometer",
                 description: "This is the tool or instrument that is used to measure temperature.",
                 synonyms: [""],
                 example: `
@@ -670,3 +670,11 @@ class Glossary {
         return this.words.length;
     }
 }
+
+// let test = new Glossary();
+
+// let array = test.getWordsList()
+
+// for(let element of array){
+//     console.log(element);
+// }
