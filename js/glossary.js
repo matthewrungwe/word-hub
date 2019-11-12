@@ -155,7 +155,7 @@ class Glossary {
                     -> Perimeter = 2(L + W)
                     -> Perimeter = 2(1500mm + 1000mm)
                 </p>
-                <p>=> ${2(1500 + 1000)}mm</p>
+                <p>=> ${2 * (1500 + 1000)}mm</p>
                 `
             },
             {
@@ -571,7 +571,7 @@ class Glossary {
                 `
             },
             {
-                word: "themometer",
+                word: "thermometer",
                 description: "This is the tool or instrument that is used to measure temperature.",
                 synonyms: [""],
                 example: `
@@ -670,3 +670,11 @@ class Glossary {
         return this.words.length;
     }
 }
+
+// let test = new Glossary();
+
+// let array = test.getWordsList()
+
+// for(let element of array){
+//     console.log(element);
+// }
