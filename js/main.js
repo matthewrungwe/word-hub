@@ -45,8 +45,8 @@ $(document).ready(() => {
         }
 
         return {
-            dictionStatement: "word entered not found, please check your spelling",
-            dictionDescription: "No descrition found",
+            dictionStatement: "word entered not found, please check your spelling or enter word",
+            dictionDescription: "",
             dictionSynonyms: "",
             dictionExample: ""
         }
@@ -62,7 +62,7 @@ $(document).ready(() => {
         resultField.html(`
         <h3>${definitionObject.dictionStatement}</h3>
         <p>${definitionObject.dictionDescription}</p>
-        <p>Similar Words: ${definitionObject.dictionSynonyms}</p>
+        <p>${(definitionObject.dictionSynonyms === "") ? "" : "Similar: " + definitionObject.dictionSynonyms}</p>
         <div>${definitionObject.dictionExample}</div>
         `);
     }
